@@ -5,6 +5,7 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: process.env.NODE_ENV === 'production' ? '/personal-page' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/personal-page/' : '',
 };
 
 export default nextConfig; 
